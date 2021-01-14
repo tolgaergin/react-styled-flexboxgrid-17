@@ -1,6 +1,6 @@
 {
   "name": "react-styled-flexboxgrid-v2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Grid system based on styled-components and flexbox for React. Forked from react-styled-flexbox",
   "keywords": [
     "react",
