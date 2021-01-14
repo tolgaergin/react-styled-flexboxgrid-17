@@ -1,4 +1,3 @@
-
 import { css } from 'styled-components'
 
 const THEME_CONF = 'flexboxgrid'
