@@ -17,8 +17,8 @@ const DimensionPropTypes = DIMENSION_NAMES.reduce((propTypes, dimension) => {
 const Col = styled.div`
   box-sizing: border-box;
   flex: 0 0 auto;
-  padding-right: ${p => config(p).gutterWidth / 2}rem;
-  padding-left: ${p => config(p).gutterWidth / 2}rem;
+  padding-right: ${p => config(p).gutterWidth / 2}px;
+  padding-left: ${p => config(p).gutterWidth / 2}px;
 
   ${p => p.reverse && `
     flex-direction: column-reverse;

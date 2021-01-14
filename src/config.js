@@ -54,7 +54,7 @@ const resolveConfig = props => {
   return conf
 }
 
-export const DIMENSION_NAMES = ['xs', 'sm', 'md', 'lg']
+export const DIMENSION_NAMES = ['xxs', 'xs', 'sm', 'md', 'lg']
 
 export default function config (props) {
   const cacheId = makeCacheId(props)

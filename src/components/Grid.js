@@ -7,8 +7,8 @@ import config, { DIMENSION_NAMES } from '../config'
 const Grid = styled.div`
   margin-right: auto;
   margin-left: auto;
-  padding-right: ${p => config(p).outerMargin + 'rem'};
-  padding-left: ${p => config(p).outerMargin + 'rem'};
+  padding-right: ${p => config(p).outerMargin + 'px'};
+  padding-left: ${p => config(p).outerMargin + 'px'};
 
   ${p => !p.fluid && css`
     ${DIMENSION_NAMES.map(t =>
